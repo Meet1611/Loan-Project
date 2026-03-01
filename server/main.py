@@ -1,10 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import joblib
 import os
 import pandas as pd
 import numpy as np
 
 app = Flask(__name__)
+CORS(app)
 
 # Constants
 MODEL_DIR = "models"

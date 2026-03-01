@@ -178,7 +178,7 @@ const Predict = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-[85vh] px-4 py-12 relative">
+        <div className="flex flex-col items-center justify-center min-h-[85vh] px-4 py-12 relative overflow-x-hidden w-full">
             {/* Subtle gradient overlay on background */}
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/[0.02] to-transparent pointer-events-none z-0" />
             

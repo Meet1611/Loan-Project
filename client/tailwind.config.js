@@ -12,6 +12,11 @@ export default {
                 ring: "hsl(var(--ring))",
                 background: "hsl(var(--background))",
                 foreground: "hsl(var(--foreground))",
+                brand: {
+                    DEFAULT: "#6bbeb6",
+                    dark: "#327b78",
+                    light: "#aee4e0",
+                },
                 primary: {
                     DEFAULT: "hsl(var(--primary))",
                     foreground: "hsl(var(--primary-foreground))",
@@ -55,10 +60,14 @@ export default {
                     from: { height: "var(--radix-accordion-content-height)" },
                     to: { height: "0" },
                 },
+                shimmer: {
+                    "100%": { transform: "translateX(100%)" },
+                },
             },
             animation: {
                 "accordion-down": "accordion-down 0.2s ease-out",
                 "accordion-up": "accordion-up 0.2s ease-out",
+                shimmer: "shimmer 2s infinite",
             },
         },
     },

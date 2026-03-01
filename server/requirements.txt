@@ -1,4 +1,6 @@
-                                                                        flask
+flask
+flask-cors
+gunicorn
 joblib
 pandas
 numpy
